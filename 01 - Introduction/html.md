@@ -23,10 +23,13 @@ It is a markup language.
 
 </body>
 </html>
+```
 
-Important Tags
+## Important Tags
+```
 <!DOCTYPE html> → HTML5 declaration
 <html> → Root element
 <head> → Contains metadata
 <title> → Browser tab title
 <body> → Visible webpage content
+```
