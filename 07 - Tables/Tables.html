@@ -7,5 +7,103 @@
 </head>
 <body>
     
+    <h1>HTML Tables</h1>
+
+    <h2> 1. Basic table </h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+
+        <tr>
+            <td>Blade</td>
+            <td>24</td>
+            <td>India</td>
+        </tr>
+
+        <tr>
+            <td>Crystal</td>
+            <td>23</td>
+            <td>Iceland</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2> 2. Rowspan </h2>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">Blade</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2> 3. Colspan </h2>
+
+    <table border="4">
+
+        <tr>
+            <th colspan="3">Student Details</th>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+
+        <tr>
+            <td>Knight</td>
+            <td>22</td>
+            <td>SilkSong</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2> 4. thead, tbody and tfoot </h2>
+
+    <table border="1">
+
+        <thead>
+        <tr>
+            <th> Product </th>
+            <th> Price </th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Keyboard</td>
+                <td>₹1000</td>
+            </tr>
+
+            <tr>
+                <td>Mouse</td>
+                <td>₹500</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>₹1500</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
 </body>
 </html>
